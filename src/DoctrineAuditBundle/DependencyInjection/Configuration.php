@@ -25,6 +25,10 @@ class Configuration implements ConfigurationInterface
                     ->defaultTrue()
                 ->end()
 
+                ->scalarNode('enable_audit_controller')
+                    ->defaultTrue()
+                ->end()
+
                 ->scalarNode('storage_entity_manager')
                     ->cannotBeEmpty()
                     ->defaultNull()

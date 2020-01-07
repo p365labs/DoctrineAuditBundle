@@ -198,6 +198,7 @@ abstract class BaseTest extends TestCase
         return new AuditConfiguration(
             array_merge([
                 'enabled' => true,
+                'enable_audit_controller' => true,
                 'table_prefix' => '',
                 'table_suffix' => '_audit',
                 'timezone' => 'UTC',

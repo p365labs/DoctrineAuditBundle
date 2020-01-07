@@ -16,7 +16,6 @@
     "doctrine/doctrine-bundle": "^1.9|^2.0",
     "symfony/event-dispatcher": "^3.4|^4.0|^5.0",
     "symfony/security-bundle": "^3.4|^4.0|^5.0",
-    "symfony/translation": "^3.4|^4.0|^5.0",
     "symfony/twig-bundle": "^3.4|^4.0|^5.0",
     "doctrine/annotations": "^1.8",
     "symfony/lock": "^3.4|^4.0|^5.0",
